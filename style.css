@@ -63,7 +63,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-columns: 300px 1fr 380px;
+    grid-template-columns: 300px minmax(500px, 1fr) 380px;
     grid-template-rows: repeat(3, min-content) 1fr;
     height: 100vh;
     min-height: 100%;
